@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+  const [items, setItems] = useState({});
+  const [isLoaded, setIsLoaded] = useState(false);
+
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = () => {
+    fetch('https://api.github.com/users?since=0&per_page=20')
+      .then(res => res.json())
+      .then(json => {
+        setItems(json);
+        setIsLoaded(true);
+      });
+  }
+
+
+  if (!isLoaded) {
+    return <div>Loading...</div>
+  } else {
+    console.log(items);
+    return (
+      <div className="App">
+        <ol>
+          {items.map(item => (
+            <li key={item.id}>
+              <ul>
+                <li>Avatar Url : <a href={item.avatar_url}>{item.avatar_url}</a></li>
+                <li>Login : {item.login}</li>
+                <li>Site Admin : {item.site_admin.toString()}</li>
+                <li>Number of Items : {Object.keys(item).length}</li>
+              </ul>
+            </li>
+          ))}
+        </ol>
+      </div>
+    );
+  }
 }
+
 
 export default App;
