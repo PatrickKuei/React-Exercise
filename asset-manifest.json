@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Exercise/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/React-Exercise/static/js/main.063060bd.chunk.js",
+    "main.js.map": "/React-Exercise/static/js/main.063060bd.chunk.js.map",
+    "runtime-main.js": "/React-Exercise/static/js/runtime-main.68f18029.js",
+    "runtime-main.js.map": "/React-Exercise/static/js/runtime-main.68f18029.js.map",
+    "static/js/2.8e1a3d53.chunk.js": "/React-Exercise/static/js/2.8e1a3d53.chunk.js",
+    "static/js/2.8e1a3d53.chunk.js.map": "/React-Exercise/static/js/2.8e1a3d53.chunk.js.map",
+    "index.html": "/React-Exercise/index.html",
+    "precache-manifest.b0a7affc42e9c63f7e75a17f5ec4e398.js": "/React-Exercise/precache-manifest.b0a7affc42e9c63f7e75a17f5ec4e398.js",
+    "service-worker.js": "/React-Exercise/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/React-Exercise/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8e1a3d53.chunk.js.LICENSE.txt": "/React-Exercise/static/js/2.8e1a3d53.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.68f18029.js",
+    "static/js/2.8e1a3d53.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.063060bd.chunk.js"
+  ]
+}
