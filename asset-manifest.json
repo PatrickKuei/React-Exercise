@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Exercise/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/React-Exercise/static/js/main.063060bd.chunk.js",
-    "main.js.map": "/React-Exercise/static/js/main.063060bd.chunk.js.map",
-    "runtime-main.js": "/React-Exercise/static/js/runtime-main.68f18029.js",
-    "runtime-main.js.map": "/React-Exercise/static/js/runtime-main.68f18029.js.map",
-    "static/js/2.8e1a3d53.chunk.js": "/React-Exercise/static/js/2.8e1a3d53.chunk.js",
-    "static/js/2.8e1a3d53.chunk.js.map": "/React-Exercise/static/js/2.8e1a3d53.chunk.js.map",
-    "index.html": "/React-Exercise/index.html",
-    "precache-manifest.b0a7affc42e9c63f7e75a17f5ec4e398.js": "/React-Exercise/precache-manifest.b0a7affc42e9c63f7e75a17f5ec4e398.js",
-    "service-worker.js": "/React-Exercise/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/React-Exercise/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.8e1a3d53.chunk.js.LICENSE.txt": "/React-Exercise/static/js/2.8e1a3d53.chunk.js.LICENSE.txt"
+    "main.css": "//patrickkuei.github.io/React-Fetch-Data/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "//patrickkuei.github.io/React-Fetch-Data/static/js/main.3b878f86.chunk.js",
+    "main.js.map": "//patrickkuei.github.io/React-Fetch-Data/static/js/main.3b878f86.chunk.js.map",
+    "runtime-main.js": "//patrickkuei.github.io/React-Fetch-Data/static/js/runtime-main.92ef4f23.js",
+    "runtime-main.js.map": "//patrickkuei.github.io/React-Fetch-Data/static/js/runtime-main.92ef4f23.js.map",
+    "static/js/2.8e1a3d53.chunk.js": "//patrickkuei.github.io/React-Fetch-Data/static/js/2.8e1a3d53.chunk.js",
+    "static/js/2.8e1a3d53.chunk.js.map": "//patrickkuei.github.io/React-Fetch-Data/static/js/2.8e1a3d53.chunk.js.map",
+    "index.html": "//patrickkuei.github.io/React-Fetch-Data/index.html",
+    "precache-manifest.a6fc4f7297ff250180a42e6a2350953e.js": "//patrickkuei.github.io/React-Fetch-Data/precache-manifest.a6fc4f7297ff250180a42e6a2350953e.js",
+    "service-worker.js": "//patrickkuei.github.io/React-Fetch-Data/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "//patrickkuei.github.io/React-Fetch-Data/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8e1a3d53.chunk.js.LICENSE.txt": "//patrickkuei.github.io/React-Fetch-Data/static/js/2.8e1a3d53.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.68f18029.js",
+    "static/js/runtime-main.92ef4f23.js",
     "static/js/2.8e1a3d53.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.063060bd.chunk.js"
+    "static/js/main.3b878f86.chunk.js"
   ]
 }
